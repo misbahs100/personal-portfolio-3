@@ -1,4 +1,4 @@
-import { faBriefcase, faComments, faEnvelopeOpen, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faBriefcase, faComments, faEnvelopeOpen, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const Navbar = () => {
                 {/* <div class="container-fluid "> */}
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <FontAwesomeIcon className="text-white" icon={faBars} />
                     </button>
                     <div class="collapse navbar-collapse navbar-lists" id="navbarNav">
                         <ul class="navbar-nav d-flex flex-column ml-auto">

@@ -8,17 +8,37 @@
     border-radius: 50px;
     height: 50px;
     color: white;
-    /* padding: 5px; */
+    padding: 15px;
     margin-right: 15px;
     cursor: pointer;
+    background: transparent;
+}
+.my-button:hover{
+    color: rgb(179, 171, 171);
+}
+.my-buttdon-2{
+    background-color: gold;
+    color: white;
+    height: 50px;
+}
+.navbar-col{
+    display: flex;
+    align-items: center;
 }
 @media only screen and (max-width: 600px) {
-    .home-container>div{
+    .home-container div{
         flex-direction: column-reverse;
     }
     .home-container{
         justify-content: center;
         align-items: center;
         display: flex;
+        
     }
+    .navbar-col{
+        /* margin-bottom: 50%; */
+        display: block;
+        margin-bottom: 20%;
+    }
+    
 }

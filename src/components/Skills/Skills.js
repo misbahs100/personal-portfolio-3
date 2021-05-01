@@ -32,7 +32,7 @@ const Skills = () => {
             <div className="row">
                 {
                     skills.map(skill => <div className="col-md-3 d-flex justify-content-center mb-5">
-                        <img style={{ height: '100px' }} src={skill.skillImg} alt={skill.skillName} />
+                        <img src={skill.skillImg} alt={skill.skillName} />
                     </div>)
                 }
 

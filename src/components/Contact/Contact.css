@@ -21,3 +21,10 @@
     padding: 10px;
     color: white;
 }
+.social{
+    color: white;
+}
+.social:hover{
+    color: gold;
+    cursor: pointer;
+}

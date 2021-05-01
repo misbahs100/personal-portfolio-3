@@ -2,3 +2,8 @@
     background-color: #111;
     min-height: 100vh;
 }
+.about-container img{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+}

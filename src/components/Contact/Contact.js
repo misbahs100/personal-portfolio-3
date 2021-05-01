@@ -34,10 +34,10 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div  className="text-white mt-4">
-                                <GitHubIcon className="mr-3"></GitHubIcon>
-                                <LinkedInIcon className="mr-3"></LinkedInIcon>
-                                <TwitterIcon className="mr-3" ></TwitterIcon>
-                                <FacebookIcon></FacebookIcon>
+                                <a href="https://github.com/misbahs100" className="mr-3 social"><GitHubIcon></GitHubIcon></a>
+                                <a href="https://www.linkedin.com/in/misbah-uddin-faroque-88a4651a9/" className="mr-3 social"><LinkedInIcon ></LinkedInIcon></a>
+                                <a href="" className="mr-3 social"><TwitterIcon ></TwitterIcon></a>
+                                <a href="https://www.facebook.com/misbahuddin.misbah.5895" className="mr-3 social"><FacebookIcon></FacebookIcon></a>
                             </div>
                         </div>
 
