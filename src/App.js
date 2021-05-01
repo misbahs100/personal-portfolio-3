@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Blogs from './components/Blogs/Blogs';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact></Contact>
+        </Route>
+        <Route path="/blogs">
+          <Blogs></Blogs>
         </Route>
       </Switch>
     </Router>

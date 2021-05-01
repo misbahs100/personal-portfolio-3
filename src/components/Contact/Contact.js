@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
 
                         <div className="col-md-7">
-                            <form action="">
+                            <form action="https://formspree.io/f/meqveklj" method="POST">
                                 <input type="text" name="name" placeholder="YOUR NAME" />
                                 <input type="email" name="email" placeholder="YOUR EMAIL" />
                                 <input type="text" name="subject" placeholder="YOUR SUBJECT" />

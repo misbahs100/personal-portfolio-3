@@ -2,6 +2,7 @@ import React from 'react';
 import './PersonalInfos.css';
 
 const PersonalInfos = () => {
+    const resumeLink = 'https://drive.google.com/file/d/16O1BgxP5dAJOD7ZER32U4ZNU0zBJ_FLB/view?usp=sharing';
     return (
         <div className="row">
             {/* infos */}
@@ -23,7 +24,7 @@ const PersonalInfos = () => {
                         <p className="text-white">Languages: <strong>Bangla, English</strong></p>
                     </div>
                 </div>
-                <button className="text-uppercase btn my-button">Download Resume</button>
+                <a href={resumeLink} target="_blank"><button className="text-uppercase btn my-button">Download resume</button></a>
             </div>
 
             {/* cards */}
