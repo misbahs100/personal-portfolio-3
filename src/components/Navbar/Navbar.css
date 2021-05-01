@@ -1,0 +1,25 @@
+.navbar-lists li{
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    background-color: gold;
+    margin: 5px;
+    margin-bottom: 15px;
+    transition: transform 0.5s;
+}
+.navbar-lists li:hover{
+    cursor: pointer;
+    /* width: 50px; */
+    transform: translateX(-10px);
+}
+.navbar-container{
+    /* margin-top: 50%; */
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    margin-left: 93%;
+    
+}
