@@ -11,6 +11,7 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
+    color: white;
 }
 .contact-container textarea{
     background: #252525;
@@ -18,4 +19,5 @@
     border-radius: 5px;
     border: none;
     padding: 10px;
+    color: white;
 }
