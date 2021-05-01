@@ -48,13 +48,15 @@ const Contact = () => {
                                 <input type="text" name="subject" placeholder="YOUR SUBJECT" />
                                 <br />
                                 <textarea name="message" placeholder="YOUR MESSAGE" cols="75" rows="6"></textarea>
-                                <button type="submit" className="btn my-button" >SEND MESSAGE</button>
+                                <button type="submit" className="btn my-button mt-2" >SEND MESSAGE</button>
                             </form>
                         </div>
                     </div>
                 </div>
 
-                <Navbar></Navbar>
+                <div className="col-md-1 " style={{marginTop: '10%'}}>
+                    <Navbar></Navbar>
+                </div>
             </div>
         </div>
     );

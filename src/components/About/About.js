@@ -18,7 +18,10 @@ const About = () => {
                     <Skills></Skills>
                     <ExperienceAndEducation></ExperienceAndEducation>
                 </div>
-                <Navbar></Navbar>
+                {/* <Navbar></Navbar> */}
+                <div className="col-md-1" style={{marginTop: '10%'}}>
+                    <Navbar></Navbar>
+                </div>
             </div>
         </div>
     );

@@ -17,7 +17,9 @@ const Projects = () => {
                     <HighwayTransport></HighwayTransport>
                 </div>
 
-                <Navbar></Navbar>
+                <div className="col-md-1" style={{marginTop: '10%'}}>
+                    <Navbar></Navbar>
+                </div>
             </div>
         </div>
     );

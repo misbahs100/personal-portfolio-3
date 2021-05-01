@@ -6,7 +6,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-       <div className="col-md-12 d-flex align-items-center position-fixed">
+       <div className="d-flex align-items-center position-fixed">
             <div className="navbar-container">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 {/* <div class="container-fluid "> */}
