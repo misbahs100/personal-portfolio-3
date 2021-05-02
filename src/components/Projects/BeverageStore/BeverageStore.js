@@ -4,6 +4,7 @@ import beverage2 from '../../../images/beverage2.PNG';
 import beverage3 from '../../../images/beverage3.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const project = {
     name: 'Beverage Store',
@@ -64,7 +65,7 @@ const BeverageStore = () => {
                 <br />
 
                 <a href={project.liveSite}><button className="my-button"><FontAwesomeIcon icon={faGlobe} /> Live</button></a>
-                <a href={project.github}><button className="my-button"><FontAwesomeIcon icon={faGlobe} /> Github</button></a>
+                <a href={project.github}><button className="my-button"><GitHubIcon></GitHubIcon> Github</button></a>
 
             </div>
         </div>
