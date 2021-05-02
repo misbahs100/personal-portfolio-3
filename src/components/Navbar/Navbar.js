@@ -16,12 +16,12 @@ const Navbar = () => {
         <div className="dddd">
 
             <div className="d-md-none d-block">
-                <Menu menuButton={<MenuButton><FontAwesomeIcon className="" icon={faBars} /></MenuButton>}>
-                    <MenuItem><Link to="/"><button className="btn">Home</button></Link></MenuItem>
-                    <MenuItem><Link to="/about"><button className="btn">About</button></Link></MenuItem>
-                    <MenuItem><Link to="/projects"><button className="btn">Projects</button></Link></MenuItem>
-                    <MenuItem><Link to="/contact"><button className="btn">Contact</button></Link></MenuItem>
-                    <MenuItem><Link to="/blogs"><button className="btn">Blogs</button></Link></MenuItem>
+                <Menu className="bg-secondary" menuButton={<MenuButton><FontAwesomeIcon className="" icon={faBars} /></MenuButton>}>
+                    <MenuItem><Link to="/"><button className="btn text-warning">Home</button></Link></MenuItem>
+                    <MenuItem><Link to="/about"><button className="btn text-warning">About</button></Link></MenuItem>
+                    <MenuItem><Link to="/projects"><button className="btn text-warning">Projects</button></Link></MenuItem>
+                    <MenuItem><Link to="/contact"><button className="btn text-warning">Contact</button></Link></MenuItem>
+                    <MenuItem><Link to="/blogs"><button className="btn text-warning">Blogs</button></Link></MenuItem>
                 </Menu>
             </div>
 
