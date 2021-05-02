@@ -2,3 +2,6 @@
     background-color: #111;
     min-height: 100vh;
 }
+.blogs-container img{
+    width: 100%;
+}

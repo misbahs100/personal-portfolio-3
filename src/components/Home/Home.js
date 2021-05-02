@@ -26,8 +26,10 @@ const Home = () => {
                             <h1 className="text-uppercase text-warning">- I'm Misbah Uddin.</h1> <h4 className="text-white">
                                 <Typical
                                     steps={[
-                                        'Want to be a Web Developer', 3000,
-                                        'I know MERN Stack', 3000
+                                        '', 1000,
+                                        'I Want to be a Web Developer', 3000,
+                                        'I know MERN Stack', 3000,
+                                        'Of course I love to sleep', 3000
 
                                     ]}
                                     loop={Infinity}
