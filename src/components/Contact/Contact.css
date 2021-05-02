@@ -2,6 +2,9 @@
     background-color: #111;
     min-height: 100vh;
 }
+.contact-container img{
+    width: 100%;
+}
 .contact-container input{
     /* background: transparent; */
     background: #252525;
@@ -27,4 +30,19 @@
 .social:hover{
     color: gold;
     cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .contact-container input{
+        width: 100%;
+        margin: 15px;        
+    }
+    .contact-container textarea{
+        width: 100%;
+        margin: 15px;
+    }
+    .form-container{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
 }

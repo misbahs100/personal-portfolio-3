@@ -1,9 +1,10 @@
 .navbar-lists li{
-    height: 40px;
-    width: 40px;
-    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid red; */
     border-radius: 50%;
     justify-content: center;
+    align-items: center;
     display: flex;
     background-color: gold;
     margin: 5px;

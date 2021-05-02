@@ -8,14 +8,16 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import TelegramIcon from '@material-ui/icons/Telegram';
 
 const Contact = () => {
     return (
         <div className="contact-container">
-            <img src={contactBg} alt="" />
-            <div className="row w-100">
+            <div className="mb-5"><img src={contactBg} alt="" /></div>
+            <div className="row w-100 about-row">
+                <div className="col-md-1"></div>
                 <div className="col-md-10 m-auto">
-                    <div className="row w-100">
+                    <div className="row w-100 container">
                         <div className="col-md-5">
                             <h3 className="text-uppercase text-white">don't be shy!</h3>
                             <p className="text-white">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
@@ -41,20 +43,20 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-7">
-                            <form action="https://formspree.io/f/meqveklj" method="POST">
+                        <div className="col-md-7 mt-md-0 mt-5 mb-5 form-container">
+                            <form className="" action="https://formspree.io/f/meqveklj" method="POST">
                                 <input className="text-white" type="text" name="name" placeholder="YOUR NAME" />
                                 <input type="email" name="email" placeholder="YOUR EMAIL" />
                                 <input type="text" name="subject" placeholder="YOUR SUBJECT" />
                                 <br />
-                                <textarea name="message" placeholder="YOUR MESSAGE" cols="75" rows="6"></textarea>
-                                <button type="submit" className="btn my-button mt-2" >SEND MESSAGE</button>
+                                <textarea name="message" placeholder="YOUR MESSAGE" cols="70" rows="6"></textarea>
+                                <button type="submit" className="my-button mt-2" >SEND MESSAGE <TelegramIcon></TelegramIcon></button>
                             </form>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-md-1 " style={{marginTop: '10%'}}>
+                <div className="col-md-1" style={{marginTop: '10%'}}>
                     <Navbar></Navbar>
                 </div>
             </div>
