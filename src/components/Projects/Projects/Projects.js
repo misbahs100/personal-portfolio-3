@@ -9,9 +9,10 @@ import HighwayTransport from '../HighwayTransport/HighwayTransport';
 const Projects = () => {
     return (
         <div className="projects-container">
-            <img src={projectBanner} alt="" />
-            <div className="row w-100">
-                <div className="col-md-10 m-auto">
+            <div className="mb-5"><img src={projectBanner} alt="" /></div>
+            <div className="row w-100 about-row">
+                <div className="col-md-1"></div>
+                <div className="col-md-10  lkj">
                     <WebpageService></WebpageService>
                     <BeverageStore></BeverageStore>
                     <HighwayTransport></HighwayTransport>

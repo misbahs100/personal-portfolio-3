@@ -1,11 +1,13 @@
 import React from 'react';
 import './PersonalInfos.css';
 import pic from '../../images/misbah.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const PersonalInfos = () => {
     const resumeLink = 'https://drive.google.com/file/d/16O1BgxP5dAJOD7ZER32U4ZNU0zBJ_FLB/view?usp=sharing';
     return (
-        <div className="row">
+        <div className="row personalInfos-container">
             {/* infos */}
             <div className="col-md-6">
                 <h3 className="text-white">PERSONAL INFOS</h3> <br />
@@ -26,7 +28,7 @@ const PersonalInfos = () => {
                         <p className="text-white">Languages: <strong>Bangla, English</strong></p>
                     </div>
                 </div>
-                <a href={resumeLink} target="_blank"><button className="text-uppercase my-button">Download resume</button></a>
+                <a href={resumeLink} target="_blank"><button className="text-uppercase my-button mb-5">Download resume <FontAwesomeIcon icon={faDownload} /></button></a>
             </div>
 
             {/* cards */}
@@ -48,14 +50,14 @@ const PersonalInfos = () => {
 
                     <div className="col-md-6">
                     <div className="card">
-                            <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">12<sup>+</sup></div>
+                            <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">...</div>
                             <div className="text-white  d-flex justify-content-center align-items-center" style={{fontSize: '15px'}}>Blogs</div>
                         </div>
                     </div>
 
                     <div className="col-md-6">
                     <div className="card">
-                            <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">12<sup>+</sup></div>
+                            <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">...</div>
                             <div className="text-white  d-flex justify-content-center align-items-center" style={{fontSize: '15px'}}>Award Won</div>
                         </div>
                     </div>

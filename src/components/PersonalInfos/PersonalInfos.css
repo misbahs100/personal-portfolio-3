@@ -12,4 +12,8 @@
         margin: auto;
         margin-top: 20px;
     }
+    .personalInfos-container h3{
+        display: flex;
+        justify-content: center;
+    }
 }

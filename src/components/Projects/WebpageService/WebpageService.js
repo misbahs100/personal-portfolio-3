@@ -4,6 +4,7 @@ import webpage2 from '../../../images/webpage2.PNG';
 import webpage3 from '../../../images/webpage3.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const project = {
     name: 'Webpage Service',
@@ -24,7 +25,7 @@ const project = {
 
 const WebpageService = () => {
     return (
-        <div className="row w-100 container mb-5">
+        <div className="row w-100 container mb-5 ml-auto">
              {/* carousel */}
              <div className="col-md-6 card">
                                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -64,8 +65,8 @@ const WebpageService = () => {
                                     }
                                     <br/>
                                     
-                                        <a href={project.liveSite}><button className="btn my-button"><FontAwesomeIcon icon={faGlobe}/> Live</button></a>
-                                        <a href={project.github}><button className="btn my-button"><FontAwesomeIcon icon={faGlobe}/> Github</button></a>
+                                        <a href={project.liveSite}><button className="my-button"><FontAwesomeIcon icon={faGlobe}/> Live</button></a>
+                                        <a href={project.github}><button className="my-button"><GitHubIcon></GitHubIcon> Github</button></a>
                                     
                                 </div>
         </div>

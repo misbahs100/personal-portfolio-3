@@ -12,6 +12,7 @@
     margin-right: 15px;
     cursor: pointer;
     background: transparent;
+    
 }
 .my-button:hover{
     color: rgb(179, 171, 171);
@@ -38,7 +39,7 @@
     .navbar-col{
         /* margin-bottom: 50%; */
         display: block;
-        margin-bottom: 20%;
+        margin-bottom: 15%;
     }
     
 }

@@ -22,8 +22,24 @@
     align-items: center;
     
 }
+.dddd{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar-container{
         
+    }
+    .nav-btn{
+        position: absolute;
+        /* top: -240px; */
+        
+    }
+    .dddd{
+        position: absolute;
+        /* bottom: 100%; */
+        top: -100px;
     }
 }

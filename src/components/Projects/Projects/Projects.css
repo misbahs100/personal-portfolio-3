@@ -2,3 +2,11 @@
     background-color: #111;
     min-height: 100vh;
 }
+.projects-container img{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .lkj{
+        
+    }
+}

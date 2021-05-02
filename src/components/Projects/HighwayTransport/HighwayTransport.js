@@ -20,7 +20,7 @@ const project = {
 
 const HighwayTransport = () => {
     return (
-        <div className="row w-100 container mb-5">
+        <div className="row w-100 container mb-5 ml-auto">
             {/* carousel */}
             <div className="col-md-6 card">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -57,8 +57,8 @@ const HighwayTransport = () => {
                 }
                 <br />
 
-                <a href={project.liveSite}><button className="btn my-button"><FontAwesomeIcon icon={faGlobe} /> Live</button></a>
-                <a href={project.github}><button className="btn my-button"><FontAwesomeIcon icon={faGlobe} /> Github</button></a>
+                <a href={project.liveSite}><button className="my-button"><FontAwesomeIcon icon={faGlobe} /> Live</button></a>
+                <a href={project.github}><button className="my-button"><FontAwesomeIcon icon={faGlobe} /> Github</button></a>
 
             </div>
         </div>
