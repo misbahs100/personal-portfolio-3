@@ -21,24 +21,20 @@ const Home = () => {
                         <img src={pic} alt="" />
                     </div>
 
-
-
-
                     <div className="col-md-6 d-flex align-items-center">
                         <div>
                             <h1 className="text-uppercase text-warning">- I'm Misbah Uddin.</h1> <h4 className="text-white">
-                               <Typical
+                                <Typical
                                     steps={[
                                         'Want to be a Web Developer', 3000,
                                         'I know MERN Stack', 3000
-                                        
+
                                     ]}
                                     loop={Infinity}
                                     wrapper="p"
                                 />
-                    </h4>
-                            <p className="text-white">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
-
+                            </h4>
+                            <p className="text-white">I'm an ambivert & a great selenophile. My dream is to be a web developer till now, and having some user‑friendly experiences. Well, I love to sleep very much.</p>
                             <a href={resumeDownload} target="_blank"><button className="text-uppercase  my-button">Download my resume <FontAwesomeIcon icon={faDownload} /></button></a>
 
                             <Link to="/about"><button className="text-uppercase my-button">More about me <FontAwesomeIcon icon={faArrowRight} /> </button></Link>
