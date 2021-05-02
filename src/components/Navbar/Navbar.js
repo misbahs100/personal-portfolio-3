@@ -13,10 +13,10 @@ import '@szhsin/react-menu/dist/index.css';
 
 const Navbar = () => {
     return (
-        <div className="dddd">
+        <div className="navbar-container">
 
             <div className="d-md-none d-block">
-                <Menu className="bg-secondary" menuButton={<MenuButton><FontAwesomeIcon className="" icon={faBars} /></MenuButton>}>
+                <Menu className="bg-secondary" menuButton={<MenuButton className="bg-warning btn ml-4"><FontAwesomeIcon className="" icon={faBars} /></MenuButton>}>
                     <MenuItem><Link to="/"><button className="btn text-warning">Home</button></Link></MenuItem>
                     <MenuItem><Link to="/about"><button className="btn text-warning">About</button></Link></MenuItem>
                     <MenuItem><Link to="/projects"><button className="btn text-warning">Projects</button></Link></MenuItem>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
 
-            <div className="navbar-container d-md-block d-none">
+            <div className="d-md-block d-none">
                 <nav class="navbar navbar-expand-lg navbar-light nav-btn">
                     {/* <div class="container-fluid "> */}
 

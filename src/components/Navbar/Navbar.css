@@ -16,29 +16,21 @@
     /* width: 50px; */
     transform: translateX(-10px);
 }
+
 .navbar-container{
-    /* margin-top: 50%; */
-    /* border: 1px solid red; */
-    /* display: flex;
-    align-items: center; */
-    
-}
-.dddd{
     display: flex;
     align-items: center;
     position: fixed;
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar-container{
-        
-    }
+    
     .nav-btn{
         position: absolute;
         /* top: -240px; */
         
     }
-    .dddd{
+    .navbar-container{
         position: absolute;
         /* bottom: 100%; */
         top: -100px;

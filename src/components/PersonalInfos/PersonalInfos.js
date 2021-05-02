@@ -11,7 +11,7 @@ const PersonalInfos = () => {
             {/* infos */}
             <div className="col-md-6">
                 <h3 className="text-white">PERSONAL INFOS</h3> <br />
-                <div style={{height: '180px', width: '150px'}} className="d-md-none d-flex justify-content-center mx-auto"><img src={pic} alt=""/></div>
+                <div style={{ height: '180px', width: '150px' }} className="d-md-none d-flex justify-content-center mx-auto"><img src={pic} alt="" /></div>
                 <div className="row info-container">
                     <div className="col-md-6">
                         <p className="text-white">First Name: <strong>Misbah Uddin</strong></p>
@@ -37,28 +37,28 @@ const PersonalInfos = () => {
                     <div className="col-md-6">
                         <div className="card">
                             <div className="text-warning info-card-text d-flex justify-content-center align-items-center">2<sup>+</sup></div>
-                            <div className="text-white  d-flex justify-content-center align-items-center" style={{fontSize: '15px'}}>Years of Self Experience</div>
+                            <div className="text-white  d-flex justify-content-center align-items-center" style={{ fontSize: '15px' }}>Years of Self Experience</div>
                         </div>
                     </div>
 
                     <div className="col-md-6">
-                    <div className="card">
+                        <div className="card">
                             <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">7<sup>+</sup></div>
-                            <div className="text-white  d-flex justify-content-center align-items-center" style={{fontSize: '15px'}}>Projects</div>
+                            <div className="text-white  d-flex justify-content-center align-items-center" style={{ fontSize: '15px' }}>Projects</div>
                         </div>
                     </div>
 
                     <div className="col-md-6">
-                    <div className="card">
+                        <div className="card">
                             <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">...</div>
-                            <div className="text-white  d-flex justify-content-center align-items-center" style={{fontSize: '15px'}}>Blogs</div>
+                            <div className="text-white  d-flex justify-content-center align-items-center" style={{ fontSize: '15px' }}>Blogs</div>
                         </div>
                     </div>
 
                     <div className="col-md-6">
-                    <div className="card">
+                        <div className="card">
                             <div className="text-warning info-card-text  d-flex justify-content-center align-items-center">...</div>
-                            <div className="text-white  d-flex justify-content-center align-items-center" style={{fontSize: '15px'}}>Award Won</div>
+                            <div className="text-white  d-flex justify-content-center align-items-center" style={{ fontSize: '15px' }}>Award Won</div>
                         </div>
                     </div>
                 </div>
