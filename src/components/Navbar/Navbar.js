@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
 
-            <div className="d-md-block d-none">
+            <div className="d-md-flex align-items-center d-none">
                 <nav class="navbar navbar-expand-lg navbar-light nav-btn">
                     {/* <div class="container-fluid "> */}
 

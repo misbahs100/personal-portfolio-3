@@ -58,7 +58,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-1" style={{ marginTop: '10%' }}>
+                    <div className="col-md-1" style={{  }}>
                         <Navbar></Navbar>
                     </div>
                 </div>

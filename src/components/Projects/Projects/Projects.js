@@ -14,13 +14,13 @@ const Projects = () => {
                 <div className="mb-5"><img src={projectBanner} alt="" /></div>
                 <div className="row w-100 about-row">
                     <div className="col-md-1"></div>
-                    <div className="col-md-10  lkj">
+                    <div className="col-md-10">
                         <WebpageService></WebpageService>
                         <BeverageStore></BeverageStore>
                         <HighwayTransport></HighwayTransport>
                     </div>
 
-                    <div className="col-md-1" style={{ marginTop: '10%' }}>
+                    <div className="col-md-1" style={{ }}>
                         <Navbar></Navbar>
                     </div>
                 </div>
