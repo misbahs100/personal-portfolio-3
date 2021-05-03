@@ -36,19 +36,29 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse navbar-lists" id="navbarNav">
                         <ul class="navbar-nav d-flex flex-column ml-auto">
                             <li class="nav-item">
-                                <Link class="nav-link active" to="/"><FontAwesomeIcon className="" icon={faHome} /> </Link>
+                            <Link class="nav-link active" to="/">
+                                <div className="test-li btn"><small>Home</small></div>
+                                <FontAwesomeIcon className="test-fa" icon={faHome} /> </Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/about"><FontAwesomeIcon icon={faUser} /></Link>
+                            <Link class="nav-link" to="/about">
+                            <div className="test-li btn"><small>About</small></div>
+                            <FontAwesomeIcon className="test-fa" icon={faUser} /></Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/projects"><FontAwesomeIcon icon={faBriefcase} /></Link>
+                            <Link class="nav-link" to="/projects">
+                            <div className="test-li btn"><small>Projects</small></div>
+                                <FontAwesomeIcon className="test-fa" icon={faBriefcase} /></Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/contact"><FontAwesomeIcon icon={faEnvelopeOpen} /></Link>
+                            <Link class="nav-link" to="/contact">
+                            <div className="test-li btn"><small>Contact</small></div>
+                                <FontAwesomeIcon className="test-fa" icon={faEnvelopeOpen} /></Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/blogs"><FontAwesomeIcon icon={faComments} /></Link>
+                            <Link class="nav-link" to="/blogs">
+                            <div className="test-li btn"><small>Blogs</small></div>
+                                <FontAwesomeIcon className="test-fa" icon={faComments} /></Link>
                             </li>
                         </ul>
                     </div>

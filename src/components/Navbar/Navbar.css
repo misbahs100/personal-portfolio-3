@@ -13,9 +13,27 @@
 }
 .navbar-lists li:hover{
     cursor: pointer;
-    /* width: 50px; */
     transform: translateX(-10px);
+    border-radius: 0%;
+
 }
+.navbar-lists li .test-li{
+    display: none;
+}
+.navbar-lists li:hover .test-fa{
+    display: none;
+}
+.navbar-lists li:hover .test-li{
+    display: flex;
+    color: black;
+    /* width: 280px; */
+    height: 50px;
+    background: gold;
+    border-radius:  5px; 
+    align-items: center; 
+
+}
+
 
 .navbar-container{
     display: flex;

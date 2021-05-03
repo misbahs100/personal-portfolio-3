@@ -30,27 +30,20 @@ const Home = () => {
                                         'I Want to be a Web Developer', 3000,
                                         'I know MERN Stack', 3000,
                                         'Of course I love to sleep', 3000
-
                                     ]}
                                     loop={Infinity}
                                     wrapper="p"
                                 />
                             </h4>
                             <p className="text-white">I'm an ambivert & a great selenophile. My dream is to be a web developer till now, and having some user‑friendly experiences. Well, I love to sleep very much.</p>
-                            <a href={resumeDownload} target="_blank"><button className="text-uppercase  my-button">Download my resume <FontAwesomeIcon icon={faDownload} /></button></a>
-
+                            <a href={resumeDownload} target="_blank"><button className="text-uppercase my-button mb-2">Download my resume <FontAwesomeIcon icon={faDownload} /></button></a>
                             <Link to="/about"><button className="text-uppercase my-button">More about me <FontAwesomeIcon icon={faArrowRight} /> </button></Link>
                         </div>
                     </div>
 
-
-
                     <div className="col-md-1 navbar-col">
                         <Navbar></Navbar>
                     </div>
-
-
-
                 </div>
             </Fade>
         </div>

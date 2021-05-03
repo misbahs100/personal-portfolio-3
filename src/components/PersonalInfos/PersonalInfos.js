@@ -1,17 +1,18 @@
 import React from 'react';
 import './PersonalInfos.css';
-import pic from '../../images/misbah.png';
+import pic from '../../images/misbah1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const PersonalInfos = () => {
     const resumeLink = 'https://drive.google.com/file/d/16O1BgxP5dAJOD7ZER32U4ZNU0zBJ_FLB/view?usp=sharing';
+    const resumeDownload = 'https://drive.google.com/uc?export=download&id=16O1BgxP5dAJOD7ZER32U4ZNU0zBJ_FLB';
     return (
         <div className="row personalInfos-container">
             {/* infos */}
             <div className="col-md-6">
                 <h3 className="text-white">PERSONAL INFOS</h3> <br />
-                <div style={{ height: '180px', width: '150px' }} className="d-md-none d-flex justify-content-center mx-auto"><img src={pic} alt="" /></div>
+                <div style={{ height: '300px', width: '150px' }} className="d-md-none d-flex justify-content-center mx-auto"><img src={pic} alt="" /></div>
                 <div className="row info-container">
                     <div className="col-md-6">
                         <p className="text-white">First Name: <strong>Misbah Uddin</strong></p>
@@ -28,7 +29,7 @@ const PersonalInfos = () => {
                         <p className="text-white">Languages: <strong>Bangla, English</strong></p>
                     </div>
                 </div>
-                <a href={resumeLink} target="_blank"><button className="text-uppercase my-button mb-5">Download resume <FontAwesomeIcon icon={faDownload} /></button></a>
+                <a href={resumeDownload} target="_blank"><button className="text-uppercase my-button mb-5">Download resume <FontAwesomeIcon icon={faDownload} /></button></a>
             </div>
 
             {/* cards */}
